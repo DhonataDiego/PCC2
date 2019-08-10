@@ -1,0 +1,37 @@
+package br.com.dhonatandiego.pcc;
+
+import java.io.Serializable;
+
+class Medicos implements Serializable {
+    String NOME,CNS,SEXO,IBGE,UF,MUNICIPIO,CBO,DESCRICAO_CBO,CNES,CNPJ,ESTABELECIMENTO,NATUREZA_JURIDICA,DESCRICAO_NATUREZA_JURIDICA,GESTAO,SUS,RESIDENTE,PRECEPTOR,VINCULO_ESTABELECIMENTO,VINCULO_EMPREGADOR,DETALHAMENTO_DO_VINCULO,CH_OUTROS,CH_AMB,CH_HOSP,ID;
+
+    public Medicos(String NOME, String CNS, String SEXO, String IBGE, String UF, String MUNICIPIO, String CBO, String DESCRICAO_CBO, String CNES, String CNPJ, String ESTABELECIMENTO, String NATUREZA_JURIDICA, String DESCRICAO_NATUREZA_JURIDICA, String GESTAO, String SUS, String RESIDENTE, String PRECEPTOR, String VINCULO_ESTABELECIMENTO, String VINCULO_EMPREGADOR, String DETALHAMENTO_DO_VINCULO, String CH_OUTROS, String CH_AMB, String CH_HOSP) {
+        this.NOME = NOME;
+        this.CNS = CNS;
+        this.SEXO = SEXO;
+        this.IBGE = IBGE;
+        this.UF = UF;
+        this.MUNICIPIO = MUNICIPIO;
+        this.CBO = CBO;
+        this.DESCRICAO_CBO = DESCRICAO_CBO;
+        this.CNES = CNES;
+        this.CNPJ = CNPJ;
+        this.ESTABELECIMENTO = ESTABELECIMENTO;
+        this.NATUREZA_JURIDICA = NATUREZA_JURIDICA;
+        this.DESCRICAO_NATUREZA_JURIDICA = DESCRICAO_NATUREZA_JURIDICA;
+        this.GESTAO = GESTAO;
+        this.SUS = SUS;
+        this.RESIDENTE = RESIDENTE;
+        this.PRECEPTOR = PRECEPTOR;
+        this.VINCULO_ESTABELECIMENTO = VINCULO_ESTABELECIMENTO;
+        this.VINCULO_EMPREGADOR = VINCULO_EMPREGADOR;
+        this.DETALHAMENTO_DO_VINCULO = DETALHAMENTO_DO_VINCULO;
+        this.CH_OUTROS = CH_OUTROS;
+        this.CH_AMB = CH_AMB;
+        this.CH_HOSP = CH_HOSP;
+    }
+
+    public Medicos() {
+
+    }
+}
